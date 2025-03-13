@@ -1,4 +1,4 @@
-student1 ={
+student1 = {
 'first_name' : "Serra",
 'last_name' : "Ozbek",
 'index_number' : 35248,
