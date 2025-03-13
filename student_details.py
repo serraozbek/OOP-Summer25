@@ -1,14 +1,15 @@
-first_name= "Serra"
-last_name= "Ozbek "
-index_number= 348
-nationality="Turkish"
-starting_date ="03-09-2024"
-courses =["math","computer science", "english"]
+student1 ={
+'first_name' : "Serra",
+'last_name' : "Ozbek",
+'index_number' : 35248,
+'nationality' : "Turkey",
+'starting_date' : '03.11.2024',
+'courses' : ["math","computer science", "english"]
+}
 
-
-print("First Name:", first_name)
-print("Last Name:", last_name)
-print("Index Number:", index_number)
-print("Nationality:", nationality)
-print("Starting Date:", starting_date)
-print("Courses:", courses)
+print(student1['first_name'])
+print(student1['last_name'])
+print(student1['index_number'])
+print(student1['nationality'])
+print(student1['starting_date'])
+print(student1['courses'])
