@@ -9,7 +9,7 @@ class Animal:
         return f"{self.name} ({self.group}): {self.number_of_legs} legs, Skills: {', '.join(self.skills)}"
 
 animals = [
-    Animal("kitten", "mammals", 4, ["jumping", "climbing", "sleeping"]),
+    Animal("Cat", "mammals", 4, ["jumping", "climbing", "sleeping"]),
     Animal("Dog", "mammals", 4, ["running", "barking"]),
     Animal("Fox", "mammals", 4, ["learning fast", "hunting"]),
     Animal("Capybara", "mammals", 4, ["swimming and diving", "social behavior"]),
